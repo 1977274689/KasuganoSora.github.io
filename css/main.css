@@ -1779,7 +1779,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #142232;
+  background: #81b339;
 }
 .feed-link,
 .chat {
@@ -2967,4 +2967,7 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background: url("https://kasuganosora001.github.io/images/background.png");
 }
