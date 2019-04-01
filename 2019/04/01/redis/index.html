@@ -120,17 +120,18 @@
 
 
 
-  <meta name="description" content="关于我一名正在找实习的大三本科生 主要学习方向：java后端 关于我掌握的知识前端：html、css、js、jq 后端：javase、javaweb(servlet、jsp、jdbc、listener、filter、download、upload) 框架：ssm(spring、springmvc、mybatis)、hibernate、shiro、JFinal 服务器：tomcat、nginx 数据">
-<meta property="og:type" content="website">
-<meta property="og:title" content="About Me">
-<meta property="og:url" content="https://kasuganosora001.github.io/about/index.html">
+  <meta name="description" content="一、nosql简介nosql，泛指非关系型数据库 nosql数据库主要分为4大类型： -&amp;gt; 键值存储数据库  –&amp;gt; 主要使用一个哈希表，跟Map类似  –&amp;gt; 如Redis -&amp;gt; 列存储数据库  –&amp;gt; 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value  –&amp;gt; 如：HBase -&amp;gt; 文档型存储数据库  –&amp;gt; 如M">
+<meta name="keywords" content="知识点">
+<meta property="og:type" content="article">
+<meta property="og:title" content="redis">
+<meta property="og:url" content="https://kasuganosora001.github.io/2019/04/01/redis/index.html">
 <meta property="og:site_name" content="KasuganoSora&#39;s Blog">
-<meta property="og:description" content="关于我一名正在找实习的大三本科生 主要学习方向：java后端 关于我掌握的知识前端：html、css、js、jq 后端：javase、javaweb(servlet、jsp、jdbc、listener、filter、download、upload) 框架：ssm(spring、springmvc、mybatis)、hibernate、shiro、JFinal 服务器：tomcat、nginx 数据">
+<meta property="og:description" content="一、nosql简介nosql，泛指非关系型数据库 nosql数据库主要分为4大类型： -&amp;gt; 键值存储数据库  –&amp;gt; 主要使用一个哈希表，跟Map类似  –&amp;gt; 如Redis -&amp;gt; 列存储数据库  –&amp;gt; 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value  –&amp;gt; 如：HBase -&amp;gt; 文档型存储数据库  –&amp;gt; 如M">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-31T09:36:46.214Z">
+<meta property="og:updated_time" content="2019-04-01T07:28:25.978Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="About Me">
-<meta name="twitter:description" content="关于我一名正在找实习的大三本科生 主要学习方向：java后端 关于我掌握的知识前端：html、css、js、jq 后端：javase、javaweb(servlet、jsp、jdbc、listener、filter、download、upload) 框架：ssm(spring、springmvc、mybatis)、hibernate、shiro、JFinal 服务器：tomcat、nginx 数据">
+<meta name="twitter:title" content="redis">
+<meta name="twitter:description" content="一、nosql简介nosql，泛指非关系型数据库 nosql数据库主要分为4大类型： -&amp;gt; 键值存储数据库  –&amp;gt; 主要使用一个哈希表，跟Map类似  –&amp;gt; 如Redis -&amp;gt; 列存储数据库  –&amp;gt; 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value  –&amp;gt; 如：HBase -&amp;gt; 文档型存储数据库  –&amp;gt; 如M">
 
 
 
@@ -140,7 +141,7 @@
 
   
   
-  <link rel="canonical" href="https://kasuganosora001.github.io/about/">
+  <link rel="canonical" href="https://kasuganosora001.github.io/2019/04/01/redis/">
 
 
 
@@ -150,7 +151,7 @@
   };
 </script>
 
-  <title>About Me | KasuganoSora's Blog</title>
+  <title>redis | KasuganoSora's Blog</title>
   
 
 
@@ -253,7 +254,7 @@
         
         
           
-          <li class="menu-item menu-item-about menu-item-active">
+          <li class="menu-item menu-item-about">
 
     
     
@@ -375,83 +376,250 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://kasuganosora001.github.io/2019/04/01/redis/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="KasuganoSora">
+      <meta itemprop="description" content="一个小菜鸡">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="KasuganoSora's Blog">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">About Me
-
-</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>一名正在找实习的大三本科生</p>
-<p>主要学习方向：java后端</p>
-<h2 id="关于我掌握的知识"><a href="#关于我掌握的知识" class="headerlink" title="关于我掌握的知识"></a>关于我掌握的知识</h2><p>前端：html、css、js、jq</p>
-<p>后端：javase、javaweb(servlet、jsp、jdbc、listener、filter、download、upload)</p>
-<p>框架：ssm(spring、springmvc、mybatis)、hibernate、shiro、JFinal</p>
-<p>服务器：tomcat、nginx</p>
-<p>数据库：mysql、redis</p>
-<p>操作系统：linux</p>
-<p>其他技术：maven、git、RBAC认证权限、并发编程、网络编程、log4j、数据结构、网络协议 </p>
-<h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><p>qq：1977274689<br>e-mail：<a href="mailto:1977274689@qq.com" target="_blank" rel="noopener">1977274689@qq.com</a><br>github：<a href="https://github.com/KasuganoSora001" target="_blank" rel="noopener">https://github.com/KasuganoSora001</a></p>
+          <h1 class="post-title" itemprop="name headline">redis
 
+              
+            
+          </h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-04-01 15:17:51" itemprop="dateCreated datePublished" datetime="2019-04-01T15:17:51+08:00">2019-04-01</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-04-01 15:28:25" itemprop="dateModified" datetime="2019-04-01T15:28:25+08:00">2019-04-01</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/redis/" itemprop="url" rel="index"><span itemprop="name">redis</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/redis/database/" itemprop="url" rel="index"><span itemprop="name">database</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">248</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">1 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h2 id="一、nosql简介"><a href="#一、nosql简介" class="headerlink" title="一、nosql简介"></a>一、nosql简介</h2><p>nosql，泛指非关系型数据库</p>
+<p>nosql数据库主要分为4大类型：</p>
+<p>-&gt; 键值存储数据库<br>  –&gt; 主要使用一个哈希表，跟Map类似<br>  –&gt; 如Redis</p>
+<p>-&gt; 列存储数据库<br>  –&gt; 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value<br>  –&gt; 如：HBase</p>
+<p>-&gt; 文档型存储数据库<br>  –&gt; 如MongoDB</p>
+<p>-&gt; 图形数据库<br>  –&gt; 如Neo4J、Graph</p>
+<h2 id="二、nosql特性"><a href="#二、nosql特性" class="headerlink" title="二、nosql特性"></a>二、nosql特性</h2>
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+<div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+    
+  
+</div>
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/知识点/" rel="tag"><i class="fa fa-tag"></i> 知识点</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/31/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
@@ -630,7 +798,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于我"><span class="nav-number">1.</span> <span class="nav-text">关于我</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于我掌握的知识"><span class="nav-number">2.</span> <span class="nav-text">关于我掌握的知识</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#联系方式"><span class="nav-number">3.</span> <span class="nav-text">联系方式</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、nosql简介"><span class="nav-number">1.</span> <span class="nav-text">一、nosql简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、nosql特性"><span class="nav-number">2.</span> <span class="nav-text">二、nosql特性</span></a></li></ol></div>
             
 
           </div>

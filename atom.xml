@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kasuganosora001.github.io/"/>
-  <updated>2019-03-31T12:00:50.737Z</updated>
+  <updated>2019-04-01T07:28:25.978Z</updated>
   <id>https://kasuganosora001.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>redis</title>
+    <link href="https://kasuganosora001.github.io/2019/04/01/redis/"/>
+    <id>https://kasuganosora001.github.io/2019/04/01/redis/</id>
+    <published>2019-04-01T07:17:51.000Z</published>
+    <updated>2019-04-01T07:28:25.978Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、nosql简介"><a href="#一、nosql简介" class="headerlink" title="一、nosql简介"></a>一、nosql简介</h2><p>nosql，泛指非关系型数据库</p><p>nosql数据库主要分为4大类型：</p><p>-&gt; 键值存储数据库<br>  –&gt; 主要使用一个哈希表，跟Map类似<br>  –&gt; 如Redis</p><p>-&gt; 列存储数据库<br>  –&gt; 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value<br>  –&gt; 如：HBase</p><p>-&gt; 文档型存储数据库<br>  –&gt; 如MongoDB</p><p>-&gt; 图形数据库<br>  –&gt; 如Neo4J、Graph</p><h2 id="二、nosql特性"><a href="#二、nosql特性" class="headerlink" title="二、nosql特性"></a>二、nosql特性</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;一、nosql简介&quot;&gt;&lt;a href=&quot;#一、nosql简介&quot; class=&quot;headerlink&quot; title=&quot;一、nosql简介&quot;&gt;&lt;/a&gt;一、nosql简介&lt;/h2&gt;&lt;p&gt;nosql，泛指非关系型数据库&lt;/p&gt;
+&lt;p&gt;nosql数据库主要分为4大类型：&lt;/
+      
+    
+    </summary>
+    
+      <category term="redis" scheme="https://kasuganosora001.github.io/categories/redis/"/>
+    
+      <category term="database" scheme="https://kasuganosora001.github.io/categories/redis/database/"/>
+    
+    
+      <category term="知识点" scheme="https://kasuganosora001.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

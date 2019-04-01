@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[redis]]></title>
+    <url>%2F2019%2F04%2F01%2Fredis%2F</url>
+    <content type="text"><![CDATA[一、nosql简介nosql，泛指非关系型数据库 nosql数据库主要分为4大类型： -&gt; 键值存储数据库 –&gt; 主要使用一个哈希表，跟Map类似 –&gt; 如Redis -&gt; 列存储数据库 –&gt; 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value –&gt; 如：HBase -&gt; 文档型存储数据库 –&gt; 如MongoDB -&gt; 图形数据库 –&gt; 如Neo4J、Graph 二、nosql特性]]></content>
+      <categories>
+        <category>redis</category>
+        <category>database</category>
+      </categories>
+      <tags>
+        <tag>知识点</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F03%2F31%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
