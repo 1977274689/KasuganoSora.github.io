@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[redis]]></title>
-    <url>%2F2019%2F04%2F01%2Fredis%2F</url>
-    <content type="text"><![CDATA[一、nosql简介nosql，泛指非关系型数据库 nosql数据库主要分为4大类型： 键值存储数据库 主要使用一个哈希表，跟Map类似如Redis 列存储数据库 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value如：HBase 文档型存储数据库 如MongoDB 图形数据库 如Neo4J、Graph 二、nosql特性-&gt; 数据模型比较简单，key-value形式 -&gt; 对数据库性能要求比较高 -&gt; 不要求高度的数据一致性 -&gt; 数据主要在内存中进行处理，因此高并发读写较快 三、nosql优点-&gt; 对数据高并发存储 -&gt; 对海量数据的高效率存储和访问 -&gt; 对数据的 可扩展性 和 高可用 111 222 333]]></content>
+    <title><![CDATA[Redis(二)]]></title>
+    <url>%2F2019%2F04%2F01%2Fredis2%2F</url>
+    <content type="text"><![CDATA[本文主要介绍：Redis如何安装并部署 一、下载Redis官网]]></content>
+      <categories>
+        <category>redis</category>
+        <category>database</category>
+      </categories>
+      <tags>
+        <tag>知识点</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[reids-memcached]]></title>
+    <url>%2F2019%2F04%2F01%2Freids-memcached%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>redis</category>
+        <category>memcached</category>
+        <category>database</category>
+      </categories>
+      <tags>
+        <tag>知识点</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Reids(一)]]></title>
+    <url>%2F2019%2F04%2F01%2Fredis1%2F</url>
+    <content type="text"><![CDATA[本文主要介绍：nosql | nosql四大类型 | nosql优缺点 | Redis三策略 | Redis写入慢 一、nosql简介nosql，泛指非关系型数据库 nosql数据库主要分为4大类型： 键值存储数据库 主要使用一个哈希表，跟Map类似如Redis 列存储数据库 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value如：HBase 文档型存储数据库 如MongoDB 图形数据库 如Neo4J、Graph 二、nosql特性-&gt; 数据模型比较简单，key-value形式 -&gt; 对数据库性能要求比较高 -&gt; 不要求高度的数据一致性 -&gt; 数据主要在 内存 中进行处理，因此高并发读写较快 三、nosql优点-&gt; 对数据高并发存储 -&gt; 对海量数据的高效率存储和访问 -&gt; 对数据的 可扩展性 和 高可用 和 可靠性 可扩展性 服务机器一般分为主机器和从机器。主机器能读写，从机器为只读，主从机器的内容一致若主机器容量不足时，可以分为两个方向进行扩展 水平扩展：再添加另外的主从机器垂直扩展：增加当前主机器的容量 高可用 若主机器发生故障，则有几种方法解决 方法1：哨兵模式下，哨兵会监督着所有主从机器，主机器发生故障，则哨兵会从从机器中 择优 选取一台为主机器。若后续旧的主机器修复，加入到集群中会成为一台从机器方法2：集群模式下，若主机器发生故障，则可以让该主机器下的所有从机器连接到另一个主机器来完成集群 可靠性 数据不会发生丢失由于是在内存中进行数据操作，若机器突然断电，则内存中数据会丢失因此有两种解决方法 RDB：定期将数据存储到某一个机器上，但若在预定时间之内(如设定5s存一次，但4s时断电)，则会发生数据丢失AOF：当前机器进行持久化操作时（如set、get、del）等，都会将相关数据记录到日志文件中，若出现机器故障，则下一次可以根据日志来恢复数据 四、Redis面对互联网提供了三种策略 主从 一台主机器，多台从机器，主机器为写操作，从机器为高并发读操作，跟读写分离很像缺点：若主机器挂了，从机器也没用了 哨兵 在主从机器基础上，多出了一台哨兵机器，哨兵机器监控着所有的主从机器若主机器挂了，则哨兵会在从机器中挑选一个性能较优的变成主机器。 集群 相当于多个哨兵模式，多个主从节点。各个主从集群分摊数据。不同的主节点存储不同的数据(也可以相同) 五、Redis写入慢的问题 主要原因：为了保证数据的可靠性，开启了AOF日志记录 3.0x后解决问题办法： 多加几台主服务器结合 ssdb 使用]]></content>
       <categories>
         <category>redis</category>
         <category>database</category>

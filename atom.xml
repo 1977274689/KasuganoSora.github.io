@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kasuganosora001.github.io/"/>
-  <updated>2019-04-01T12:43:00.255Z</updated>
+  <updated>2019-04-01T14:25:31.796Z</updated>
   <id>https://kasuganosora001.github.io/</id>
   
   <author>
@@ -17,20 +17,72 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>redis</title>
-    <link href="https://kasuganosora001.github.io/2019/04/01/redis/"/>
-    <id>https://kasuganosora001.github.io/2019/04/01/redis/</id>
-    <published>2019-04-01T07:17:51.000Z</published>
-    <updated>2019-04-01T12:43:00.255Z</updated>
+    <title>Redis(二)</title>
+    <link href="https://kasuganosora001.github.io/2019/04/01/redis2/"/>
+    <id>https://kasuganosora001.github.io/2019/04/01/redis2/</id>
+    <published>2019-04-01T14:09:22.000Z</published>
+    <updated>2019-04-01T14:25:31.796Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一、nosql简介"><a href="#一、nosql简介" class="headerlink" title="一、nosql简介"></a>一、nosql简介</h2><p>nosql，泛指非关系型数据库</p><p>nosql数据库主要分为4大类型：</p><blockquote><ul><li><strong>键值存储数据库</strong>   <blockquote><p>主要使用一个哈希表，跟Map类似<br>如Redis</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>列存储数据库</strong><blockquote><p>通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value<br>如：HBase</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>文档型存储数据库</strong><blockquote><p>如MongoDB</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>图形数据库</strong><blockquote><p>如Neo4J、Graph</p></blockquote></li></ul></blockquote><h2 id="二、nosql特性"><a href="#二、nosql特性" class="headerlink" title="二、nosql特性"></a>二、nosql特性</h2><p>-&gt; 数据模型比较简单，key-value形式</p><p>-&gt; 对数据库性能要求比较高</p><p>-&gt; 不要求高度的数据一致性</p><p>-&gt; 数据主要在内存中进行处理，因此高并发读写较快</p><h2 id="三、nosql优点"><a href="#三、nosql优点" class="headerlink" title="三、nosql优点"></a>三、nosql优点</h2><p>-&gt; 对数据高并发存储</p><p>-&gt; 对海量数据的高效率存储和访问</p><p>-&gt; 对数据的 <strong>可扩展性</strong> 和 <strong>高可用</strong></p><blockquote><p>111</p><blockquote><p>222</p><blockquote><p>333</p></blockquote></blockquote></blockquote>]]></content>
+    <content type="html"><![CDATA[<hr><p>本文主要介绍：<strong>Redis如何安装并部署</strong></p><hr><h2 id="一、下载"><a href="#一、下载" class="headerlink" title="一、下载"></a>一、下载</h2><p><a href="http://redis.io/download" target="_blank" rel="noopener">Redis官网</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;一、nosql简介&quot;&gt;&lt;a href=&quot;#一、nosql简介&quot; class=&quot;headerlink&quot; title=&quot;一、nosql简介&quot;&gt;&lt;/a&gt;一、nosql简介&lt;/h2&gt;&lt;p&gt;nosql，泛指非关系型数据库&lt;/p&gt;
-&lt;p&gt;nosql数据库主要分为4大类型：&lt;/
+        &lt;hr&gt;
+&lt;p&gt;本文主要介绍：&lt;strong&gt;Redis如何安装并部署&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;一、下载&quot;&gt;&lt;a href=&quot;#一、下载&quot; class=&quot;headerlink&quot; title=&quot;一、下载&quot;&gt;&lt;/a&gt;一、下载&lt;/h2&gt;&lt;p&gt;&lt;a href=
+      
+    
+    </summary>
+    
+      <category term="redis" scheme="https://kasuganosora001.github.io/categories/redis/"/>
+    
+      <category term="database" scheme="https://kasuganosora001.github.io/categories/redis/database/"/>
+    
+    
+      <category term="知识点" scheme="https://kasuganosora001.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>reids-memcached</title>
+    <link href="https://kasuganosora001.github.io/2019/04/01/reids-memcached/"/>
+    <id>https://kasuganosora001.github.io/2019/04/01/reids-memcached/</id>
+    <published>2019-04-01T13:57:34.000Z</published>
+    <updated>2019-04-01T13:58:19.734Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="redis" scheme="https://kasuganosora001.github.io/categories/redis/"/>
+    
+      <category term="memcached" scheme="https://kasuganosora001.github.io/categories/redis/memcached/"/>
+    
+      <category term="database" scheme="https://kasuganosora001.github.io/categories/redis/memcached/database/"/>
+    
+    
+      <category term="知识点" scheme="https://kasuganosora001.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Reids(一)</title>
+    <link href="https://kasuganosora001.github.io/2019/04/01/redis1/"/>
+    <id>https://kasuganosora001.github.io/2019/04/01/redis1/</id>
+    <published>2019-04-01T07:17:51.000Z</published>
+    <updated>2019-04-01T14:15:39.967Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>本文主要介绍：<strong>nosql</strong> | <strong>nosql四大类型</strong> | <strong>nosql优缺点</strong> | <strong>Redis三策略</strong> | <strong>Redis写入慢</strong></p><hr><h2 id="一、nosql简介"><a href="#一、nosql简介" class="headerlink" title="一、nosql简介"></a>一、nosql简介</h2><p>nosql，泛指非关系型数据库</p><p>nosql数据库主要分为4大类型：</p><blockquote><ul><li><strong>键值存储数据库</strong>   <blockquote><p>主要使用一个哈希表，跟Map类似<br>如Redis</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>列存储数据库</strong><blockquote><p>通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value<br>如：HBase</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>文档型存储数据库</strong><blockquote><p>如MongoDB</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>图形数据库</strong><blockquote><p>如Neo4J、Graph</p></blockquote></li></ul></blockquote><hr><h2 id="二、nosql特性"><a href="#二、nosql特性" class="headerlink" title="二、nosql特性"></a>二、nosql特性</h2><p>-&gt; 数据模型比较简单，key-value形式</p><p>-&gt; 对数据库性能要求比较高</p><p>-&gt; 不要求高度的数据一致性</p><p>-&gt; 数据主要在 <strong>内存</strong> 中进行处理，因此高并发读写较快</p><hr><h2 id="三、nosql优点"><a href="#三、nosql优点" class="headerlink" title="三、nosql优点"></a>三、nosql优点</h2><p>-&gt; 对数据高并发存储</p><p>-&gt; 对海量数据的高效率存储和访问</p><p>-&gt; 对数据的 <strong>可扩展性</strong> 和 <strong>高可用</strong> 和 <strong>可靠性</strong></p><blockquote><ul><li><strong>可扩展性</strong><blockquote><p>服务机器一般分为主机器和从机器。主机器能读写，从机器为只读，主从机器的内容一致<br>若主机器容量不足时，可以分为两个方向进行扩展</p><blockquote><p>水平扩展：再添加另外的主从机器<br>垂直扩展：增加当前主机器的容量</p></blockquote></blockquote></li></ul></blockquote><blockquote><ul><li><strong>高可用</strong><blockquote><p>若主机器发生故障，则有几种方法解决</p><blockquote><p>方法1：哨兵模式下，哨兵会监督着所有主从机器，主机器发生故障，则哨兵会从从机器中 择优 选取一台为主机器。若后续旧的主机器修复，加入到集群中会成为一台从机器<br>方法2：集群模式下，若主机器发生故障，则可以让该主机器下的所有从机器连接到另一个主机器来完成集群</p></blockquote></blockquote></li></ul></blockquote><blockquote><ul><li><strong>可靠性</strong><blockquote><p>数据不会发生丢失<br>由于是在内存中进行数据操作，若机器突然断电，则内存中数据会丢失<br>因此有两种解决方法</p><blockquote><p><strong>RDB</strong>：定期将数据存储到某一个机器上，但若在预定时间之内(如设定5s存一次，但4s时断电)，则会发生数据丢失<br><strong>AOF</strong>：当前机器进行持久化操作时（如set、get、del）等，都会将相关数据记录到日志文件中，若出现机器故障，则下一次可以根据日志来恢复数据</p></blockquote></blockquote></li></ul></blockquote><hr><h2 id="四、Redis面对互联网提供了三种策略"><a href="#四、Redis面对互联网提供了三种策略" class="headerlink" title="四、Redis面对互联网提供了三种策略"></a>四、Redis面对互联网提供了三种策略</h2><blockquote><ul><li><strong>主从</strong><blockquote><p>一台主机器，多台从机器，主机器为写操作，从机器为高并发读操作，跟读写分离很像<br>缺点：若主机器挂了，从机器也没用了</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>哨兵</strong><blockquote><p>在主从机器基础上，多出了一台哨兵机器，哨兵机器监控着所有的主从机器<br>若主机器挂了，则哨兵会在从机器中挑选一个性能较优的变成主机器。</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>集群</strong><blockquote><p>相当于多个哨兵模式，多个主从节点。各个主从集群分摊数据。不同的主节点存储不同的数据(也可以相同)</p></blockquote></li></ul></blockquote><hr><h2 id="五、Redis写入慢的问题"><a href="#五、Redis写入慢的问题" class="headerlink" title="五、Redis写入慢的问题"></a>五、Redis写入慢的问题</h2><ul><li>主要原因：为了保证数据的可靠性，开启了AOF日志记录</li><li>3.0x后解决问题办法：<blockquote><p>多加几台主服务器<br>结合 <strong>ssdb</strong> 使用</p></blockquote></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;p&gt;本文主要介绍：&lt;strong&gt;nosql&lt;/strong&gt; | &lt;strong&gt;nosql四大类型&lt;/strong&gt; | &lt;strong&gt;nosql优缺点&lt;/strong&gt; | &lt;strong&gt;Redis三策略&lt;/strong&gt; | &lt;strong&gt;Redis写入
       
     
     </summary>
