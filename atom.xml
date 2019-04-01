@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kasuganosora001.github.io/"/>
-  <updated>2019-04-01T14:34:48.084Z</updated>
+  <updated>2019-04-01T14:43:09.758Z</updated>
   <id>https://kasuganosora001.github.io/</id>
   
   <author>
@@ -17,27 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>redis2</title>
-    <link href="https://kasuganosora001.github.io/2019/04/01/redis2-1/"/>
-    <id>https://kasuganosora001.github.io/2019/04/01/redis2-1/</id>
-    <published>2019-04-01T14:34:48.000Z</published>
-    <updated>2019-04-01T14:34:48.084Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Redis(二)</title>
     <link href="https://kasuganosora001.github.io/2019/04/01/redis2/"/>
     <id>https://kasuganosora001.github.io/2019/04/01/redis2/</id>
     <published>2019-04-01T14:09:22.000Z</published>
-    <updated>2019-04-01T14:32:22.303Z</updated>
+    <updated>2019-04-01T14:43:09.758Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>本文主要介绍：<strong>Redis如何安装并部署</strong></p><hr><h2 id="一、下载"><a href="#一、下载" class="headerlink" title="一、下载"></a>一、下载</h2><p><a href="http://redis.io/download" target="_blank" rel="noopener">Redis官网</a></p><p><img src="https://github.com/KasuganoSora001/KasuganoSora001.github.io/blob/master/images/redis01.png" alt="Redis官网"></p>]]></content>
+    <content type="html"><![CDATA[<hr><p>本文主要介绍：<strong>Redis如何安装并部署</strong></p><hr><h2 id="一、下载"><a href="#一、下载" class="headerlink" title="一、下载"></a>一、下载</h2><p><a href="http://redis.io/download" target="_blank" rel="noopener">Redis官网</a></p><p><img src="/2019/04/01/redis2/redis01.png" alt="Redis官网"></p>]]></content>
     
     <summary type="html">
     

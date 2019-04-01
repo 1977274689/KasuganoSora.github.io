@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[redis2]]></title>
-    <url>%2F2019%2F04%2F01%2Fredis2-1%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
     <title><![CDATA[Redis(二)]]></title>
     <url>%2F2019%2F04%2F01%2Fredis2%2F</url>
     <content type="text"><![CDATA[本文主要介绍：Redis如何安装并部署 一、下载Redis官网]]></content>
