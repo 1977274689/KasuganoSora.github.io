@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2019-03-31T12:00:50.737Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://kasuganosora001.github.io/"/>
+  <updated>2019-04-01T06:53:41.198Z</updated>
+  <id>https://kasuganosora001.github.io/</id>
   
   <author>
     <name>KasuganoSora</name>
@@ -17,9 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="https://kasuganosora001.github.io/2019/04/01/test/"/>
+    <id>https://kasuganosora001.github.io/2019/04/01/test/</id>
+    <published>2019-04-01T05:13:34.000Z</published>
+    <updated>2019-04-01T06:53:41.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>test</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;test&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/03/31/hello-world/"/>
-    <id>http://yoursite.com/2019/03/31/hello-world/</id>
+    <link href="https://kasuganosora001.github.io/2019/03/31/hello-world/"/>
+    <id>https://kasuganosora001.github.io/2019/03/31/hello-world/</id>
     <published>2019-03-31T05:40:52.947Z</published>
     <updated>2019-03-31T12:00:50.737Z</updated>
     
@@ -34,7 +56,7 @@
     
     </summary>
     
-      <category term="技术文档" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+      <category term="技术文档" scheme="https://kasuganosora001.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
     
   </entry>
