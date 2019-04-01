@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[redis]]></title>
     <url>%2F2019%2F04%2F01%2Fredis%2F</url>
-    <content type="text"><![CDATA[一、nosql简介nosql，泛指非关系型数据库 nosql数据库主要分为4大类型： -&gt; 键值存储数据库 –&gt; 主要使用一个哈希表，跟Map类似 –&gt; 如Redis -&gt; 列存储数据库 –&gt; 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value –&gt; 如：HBase -&gt; 文档型存储数据库 –&gt; 如MongoDB -&gt; 图形数据库 –&gt; 如Neo4J、Graph 二、nosql特性]]></content>
+    <content type="text"><![CDATA[一、nosql简介nosql，泛指非关系型数据库 nosql数据库主要分为4大类型： 键值存储数据库 主要使用一个哈希表，跟Map类似如Redis 列存储数据库 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value如：HBase 文档型存储数据库 如MongoDB 图形数据库 如Neo4J、Graph 二、nosql特性-&gt; 数据模型比较简单，key-value形式 -&gt; 对数据库性能要求比较高 -&gt; 不要求高度的数据一致性 -&gt; 数据主要在内存中进行处理，因此高并发读写较快 三、nosql优点-&gt; 对数据高并发存储 -&gt; 对海量数据的高效率存储和访问 -&gt; 对数据的 可扩展性 和 高可用 111 222 333]]></content>
       <categories>
         <category>redis</category>
         <category>database</category>

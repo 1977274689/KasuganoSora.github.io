@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kasuganosora001.github.io/"/>
-  <updated>2019-04-01T07:28:25.978Z</updated>
+  <updated>2019-04-01T07:44:38.406Z</updated>
   <id>https://kasuganosora001.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kasuganosora001.github.io/2019/04/01/redis/"/>
     <id>https://kasuganosora001.github.io/2019/04/01/redis/</id>
     <published>2019-04-01T07:17:51.000Z</published>
-    <updated>2019-04-01T07:28:25.978Z</updated>
+    <updated>2019-04-01T07:44:38.406Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一、nosql简介"><a href="#一、nosql简介" class="headerlink" title="一、nosql简介"></a>一、nosql简介</h2><p>nosql，泛指非关系型数据库</p><p>nosql数据库主要分为4大类型：</p><p>-&gt; 键值存储数据库<br>  –&gt; 主要使用一个哈希表，跟Map类似<br>  –&gt; 如Redis</p><p>-&gt; 列存储数据库<br>  –&gt; 通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value<br>  –&gt; 如：HBase</p><p>-&gt; 文档型存储数据库<br>  –&gt; 如MongoDB</p><p>-&gt; 图形数据库<br>  –&gt; 如Neo4J、Graph</p><h2 id="二、nosql特性"><a href="#二、nosql特性" class="headerlink" title="二、nosql特性"></a>二、nosql特性</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="一、nosql简介"><a href="#一、nosql简介" class="headerlink" title="一、nosql简介"></a>一、nosql简介</h2><p>nosql，泛指非关系型数据库</p><p>nosql数据库主要分为4大类型：</p><blockquote><ul><li><strong>键值存储数据库</strong>   <blockquote><p>主要使用一个哈希表，跟Map类似<br>如Redis</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>列存储数据库</strong><blockquote><p>通常用于应对 分布式存储 和 海量数据。仍旧是键值存储，但一个key可以指向多个value<br>如：HBase</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>文档型存储数据库</strong><blockquote><p>如MongoDB</p></blockquote></li></ul></blockquote><blockquote><ul><li><strong>图形数据库</strong><blockquote><p>如Neo4J、Graph</p></blockquote></li></ul></blockquote><h2 id="二、nosql特性"><a href="#二、nosql特性" class="headerlink" title="二、nosql特性"></a>二、nosql特性</h2><p>-&gt; 数据模型比较简单，key-value形式</p><p>-&gt; 对数据库性能要求比较高</p><p>-&gt; 不要求高度的数据一致性</p><p>-&gt; 数据主要在内存中进行处理，因此高并发读写较快</p><h2 id="三、nosql优点"><a href="#三、nosql优点" class="headerlink" title="三、nosql优点"></a>三、nosql优点</h2><p>-&gt; 对数据高并发存储</p><p>-&gt; 对海量数据的高效率存储和访问</p><p>-&gt; 对数据的 <strong>可扩展性</strong> 和 <strong>高可用</strong></p><blockquote><p>111</p><blockquote><p>222</p><blockquote><p>333</p></blockquote></blockquote></blockquote>]]></content>
     
     <summary type="html">
     
