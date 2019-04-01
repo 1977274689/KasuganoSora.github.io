@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Redis(二)]]></title>
     <url>%2F2019%2F04%2F01%2Fredis2%2F</url>
-    <content type="text"><![CDATA[本文主要介绍：Redis如何安装并部署 一、下载Redis官网]]></content>
+    <content type="text"><![CDATA[本文主要介绍：Redis如何安装并部署 一、下载Redis官网 二、将压缩包放到linux中的 /usr/local/tmp 下 三、解压 将 redis.tar 文件解压到 /usr/local 下# tar -zxvf redis-version -C /usr/local 进入 redis 并 make# cd /usr/local/redis-version# make 进入到 src 文件夹下并make install# cd src# make install 检查src目录下，存在redis-cli、redis-server即可]]></content>
       <categories>
         <category>redis</category>
         <category>database</category>

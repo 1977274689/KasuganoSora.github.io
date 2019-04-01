@@ -1695,6 +1695,9 @@ pre .javascript .function {
   color: #808080;
   cursor: pointer;
 }
+img {
+  max-width: 100%;
+}
 .sidebar {
   position: fixed;
   right: 0;
@@ -1830,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #39129c;
+  background: #ffa732;
 }
 .feed-link,
 .chat {

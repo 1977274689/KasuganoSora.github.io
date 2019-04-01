@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kasuganosora001.github.io/"/>
-  <updated>2019-04-01T14:43:09.758Z</updated>
+  <updated>2019-04-01T15:15:43.647Z</updated>
   <id>https://kasuganosora001.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://kasuganosora001.github.io/2019/04/01/redis2/"/>
     <id>https://kasuganosora001.github.io/2019/04/01/redis2/</id>
     <published>2019-04-01T14:09:22.000Z</published>
-    <updated>2019-04-01T14:43:09.758Z</updated>
+    <updated>2019-04-01T15:15:43.647Z</updated>
     
-    <content type="html"><![CDATA[<hr><p>本文主要介绍：<strong>Redis如何安装并部署</strong></p><hr><h2 id="一、下载"><a href="#一、下载" class="headerlink" title="一、下载"></a>一、下载</h2><p><a href="http://redis.io/download" target="_blank" rel="noopener">Redis官网</a></p><p><img src="/2019/04/01/redis2/redis01.png" alt="Redis官网"></p>]]></content>
+    <content type="html"><![CDATA[<hr><p>本文主要介绍：<strong>Redis如何安装并部署</strong></p><hr><h2 id="一、下载"><a href="#一、下载" class="headerlink" title="一、下载"></a>一、下载</h2><p><a href="http://redis.io/download" target="_blank" rel="noopener">Redis官网</a></p><p><img src="/2019/04/01/redis2/redis01.png" alt="Redis官网"></p><hr><h2 id="二、将压缩包放到linux中的-usr-local-tmp-下"><a href="#二、将压缩包放到linux中的-usr-local-tmp-下" class="headerlink" title="二、将压缩包放到linux中的 /usr/local/tmp 下"></a>二、将压缩包放到linux中的 /usr/local/tmp 下</h2><hr><h2 id="三、解压"><a href="#三、解压" class="headerlink" title="三、解压"></a>三、解压</h2><ul><li>将 redis.tar 文件解压到 /usr/local 下<br><code># tar -zxvf redis-version -C /usr/local</code></li><li>进入 redis 并 make<br><code># cd /usr/local/redis-version</code><br><code># make</code></li><li>进入到 src 文件夹下并make install<br><code># cd src</code><br><code># make install</code></li><li>检查src目录下，存在redis-cli、redis-server即可</li></ul>]]></content>
     
     <summary type="html">
     
