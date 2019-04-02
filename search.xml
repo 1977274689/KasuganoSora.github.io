@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Redis(二)]]></title>
     <url>%2F2019%2F04%2F01%2Fredis2%2F</url>
-    <content type="text"><![CDATA[本文主要介绍：Redis如何安装并部署 一、下载Redis官网 二、将压缩包放到linux中的 /usr/local/tmp 下 三、解压 将 redis.tar 文件解压到 /usr/local 下# tar -zxvf redis-version -C /usr/local 进入 redis 并 make# cd /usr/local/redis-version# make 进入到 src 文件夹下并make install# cd src# make install 检查src目录下，存在redis-cli、redis-server即可]]></content>
+    <content type="text"><![CDATA[本文主要介绍：Redis如何安装并部署 一、下载Redis官网 二、将压缩包放到linux中的 /usr/local/tmp 下 三、解压 将 redis.tar 文件解压到 /usr/local 下# tar -zxvf redis-version -C /usr/local 进入 redis 并 make# cd /usr/local/redis-version# make 进入到 src 文件夹下并make install# cd src# make install 检查src目录下，存在redis-cli、redis-server即可 四、为了方便操作，建立两个文件夹存放redis命令和配置文件# mkdir -p /usr/local/redis/etc# mkdir -p /usr/local/redis/bin etc用来存储配置文件，bin用来存储redis命令 将redis-version下的redis.conf复制到etc下# cp /usr/local/redis-version/redis.conf /usr/local/redis/etc 将src下的一些文件转移到bin下# mv mkreleasehdr.sh redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server /usr/local/redis/bin 五、启动Redis 将redis改为后台启动# vim /usr/local/redis/etc/redis.conf 找到daemonize no，将其改为–&gt; daemonize yes找到 dir ./，将其改为–&gt; dir /usr/local/redis/etc daemonize no默认为前台启动，改为yes则为后台启动 若不使用后台启动，开启redis后，redis会一直只占用主进程，这样就无法进行其他操作 使用后台启动，则会在主线程外新建一个新线程启动redis dir：保存之后一些配置文件保存的位置，如RDB、AOF等文件的位置 启动redis# /usr/local/redis/bin/redis-server /usr/local/redis/etc/redis.conf# /usr/local/redis/bin/redis-cli 关闭redis方法1:# /usr/local/redis/bin/redis-cli shutdown方法2:# ps -ef | grep redis | # ps -ef | grep 6379# kill [进程号]]]></content>
       <categories>
         <category>redis</category>
         <category>database</category>
